@@ -16,7 +16,7 @@ class PipelineGUI:
         self.root.title("Multimodal Single-Cell Spatial Transcriptomics Segmentation Pipeline (GNN-MoE)")
         self.root.geometry("850x700")
 
-        # ==================== Core Modification: Streamlined config dictionary and updated the default path for IMAGE_PATH ====================
+        # =====================================================================================
         self.config = {
             "SAMPLE_ID": "mouse_brain",
             "IMAGE_PATH": "UNI/mouse_brain_demo.png",  # <--- Updated to real physical path
