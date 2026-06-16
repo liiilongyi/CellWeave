@@ -7,6 +7,8 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from tkinter.scrolledtext import ScrolledText
 
+for folder in ["curve", "figure", "stardist_npy", os.path.join("weight", "MoE")]:
+    os.makedirs(folder, exist_ok=True)
 
 class PipelineGUI:
     def __init__(self, root):
