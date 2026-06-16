@@ -1,0 +1,7 @@
+{
+    "SAMPLE_ID": "sample_id",
+    "IMAGE_PATH": "UNI/HE_image.png",
+    "POS_PATH": "binned_outputs/square_002um/spatial/tissue_positions.parquet",
+    "EXPR_FILTERED_H5": "binned_outputs/square_002um/filtered_feature_bc_matrix.h5",
+    "EXPR_RAW_H5": "binned_outputs/square_002um/raw_feature_bc_matrix.h5"
+}
