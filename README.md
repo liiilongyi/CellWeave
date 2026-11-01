@@ -128,6 +128,11 @@ After the full pipeline finishes, the final cell reconstruction result is saved 
 
 The reconstructed cell assignment information is stored in the `obs` field of this AnnData file and can be used for downstream cell-level spatial transcriptomics analysis.
 
+### Command-line workflow
+
+CellWeave can also be run step by step from a terminal. See
+[Command-line workflow](COMMAND_LINE.md) for instructions.
+
 ## Acknowledgements
 
 We thank the developers of [Cellpose](https://www.cellpose.org/), [StarDist](https://github.com/stardist/stardist), [scGPT](https://github.com/bowang-lab/scGPT), [UNI](https://github.com/mahmoodlab/UNI), [SpatialGlue](https://github.com/JinmiaoChenLab/SpatialGlue), and [CellChat](https://github.com/jinworks/CellChat) for their valuable open-source contributions.
